@@ -1,0 +1,23 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Markandey_Vatsa:413eEO7KOwWAl17W@cluster0.6n0ff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+
+server:
+  port: ${PORT:8080}    # -> We can change the port if we want
+#  servlet:
+#    context-path: /Journal   # --> Path starts from this
+
+
+#  redis:
+#    host: localhost
+#    port: 6379
+
+
+
+
+
+
