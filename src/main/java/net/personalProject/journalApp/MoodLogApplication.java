@@ -21,6 +21,7 @@ public class MoodLogApplication {
     public PlatformTransactionManager manager(MongoDatabaseFactory dbFactory){
         return new MongoTransactionManager(dbFactory);
     }
+
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();
